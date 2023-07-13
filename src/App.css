@@ -1,0 +1,56 @@
+@import 'reset.css';
+
+@keyframes adjust-progress {
+  from {
+    transform: scaleX(calc(1 / var(2)));
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.onboarding {
+  /*width: 1712px;*/
+  display: flex;
+  flex-direction: column;
+}
+.ob_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.symbol {
+  width: 37px;
+  height: 37px;
+  padding-left: 104px;
+  padding-top: 93px;
+}
+.logo {
+  width: 289px;
+  height: 37px;
+  padding-top: 93px;
+}
+
+.ob_1 button {
+  width: 133px;
+  height: 52px;
+  padding: 11px 39px 11px 39px;
+  margin-right: 104px;
+  margin-top: 93px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.ob_2 {
+  height: 500px;
+  width: 1330px;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px black;
+  background-color: gray;
+  margin-left: 104px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-image: url('./image/camera2.jpg');
+  background-repeat: no-repeat;
+}
