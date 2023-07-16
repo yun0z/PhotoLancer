@@ -12,9 +12,7 @@ const Onboarding = () => {
         <button>Log in</button>
       </div>
       <div className="ob_2">
-        반응형 이미지 <div className="image_contain"></div>
-        <div className="image1"></div>
-        <div className="image2"></div>
+        반응형 이미지
       </div>
     </div>
   );

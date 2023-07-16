@@ -1,9 +1,10 @@
 import './App.css';
-import Onboarding from './component/Onboarding';
+import Notice from './component/Notice';
+
 function App() {
   return (
     <div className="App">
-      <Onboarding />
+      <Notice />
     </div>
   );
 }
